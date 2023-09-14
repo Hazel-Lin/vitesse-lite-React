@@ -1,5 +1,3 @@
-import { useCounter } from 'usehooks-ts'
-
 function TheCounter({ initial }: { initial: number }) {
   const { count, increment: inc, decrement: dec } = useCounter(initial ?? 0)
 
