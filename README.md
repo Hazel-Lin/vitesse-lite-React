@@ -34,6 +34,8 @@
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 
 - 🦾 TypeScript, of course
+
+- ☁️ Deploy on Vercel, zero-config
 <br>
 
 

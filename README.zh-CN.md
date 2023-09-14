@@ -36,4 +36,6 @@
 
 - 🦾 TypeScript, 当然
 
+- ☁️ 零配置部署 Vercel
+
 <br>
