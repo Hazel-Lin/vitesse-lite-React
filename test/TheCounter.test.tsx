@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
-import TheCounter from '../src/components/TheCounter'
+import TheCounter from '~/components/TheCounter'
 
 describe('Counter', () => {
   afterEach(cleanup)
@@ -17,5 +17,8 @@ describe('Counter', () => {
     fireEvent.click(getByText('+'))
 
     expect(getByText('1')).toBeDefined()
+
+    fireEvent.click(getByText('-'))
+    expect(getByText('0')).toBeDefined()
   })
 })
