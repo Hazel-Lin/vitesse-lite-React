@@ -331,8 +331,6 @@ packages:
     resolution: {integrity: sha512-+gPfKv8UWeKKeJTUxe59+OobVcrYHETCsORl61EmSkmgymguYk/X5bp7GuUIXaFsc6y++v8ZxPsLSSuujqDphA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
-    dependencies:
-      '@babel/types': 7.22.17
     dev: true
 
   /@babel/plugin-transform-react-jsx-self/7.22.5_@babel+core@7.22.17:
